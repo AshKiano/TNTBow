@@ -1,0 +1,10 @@
+name: TNTBow
+version: '${project.version}'
+main: com.ashkiano.tntbow.TNTBow
+api-version: '1.16'
+authors: [AshKiano]
+description: Shoot arrows to place and ignite TNT!
+commands:
+  givetntbow:
+    description: Gives the player an Explosive TNT Bow.
+    usage: /<command>
