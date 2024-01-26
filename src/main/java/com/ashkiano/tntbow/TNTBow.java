@@ -36,6 +36,8 @@ public class TNTBow extends JavaPlugin implements Listener {
 
         Metrics metrics = new Metrics(this, 19537);
 
+        this.getLogger().info("Thank you for using the TNTBow plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
+
         this.getCommand("givetntbow").setExecutor(new CommandExecutor() {
             @Override
             public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
